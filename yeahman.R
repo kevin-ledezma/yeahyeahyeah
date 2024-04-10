@@ -1,7 +1,7 @@
 x<-"yeah man! I love R"
 rep(x, times=550)
 df <- data.frame(
-  x = x, y = 1, 
+  x = 1, y = 1, 
   label = paste(
     "<span style='color: red; font-size: 100pt'>hell yeah, man!</span>,",
     "<span style='color: black; font-size: 20pt'>I love R.</span>", sep = "<br>"))
